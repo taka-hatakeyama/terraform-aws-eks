@@ -39,8 +39,7 @@ jobs:
           name: Release-it
           command: |
             npm install
-            git config --global user.email "ywesley@stratotechnology.com"
-            git config --global user.name "Wesley Charles Blake"
+            git config --global user.name "taka-hatakeyama"
             npm run release --ci
 
 
